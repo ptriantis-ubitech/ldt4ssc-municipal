@@ -7,7 +7,7 @@ tags:
   - kick-off
   - interoperability
   - cross-border
-  - SIMPL
+  - simpl
 work_strand: WS1
 authors:
   - name: "Panagiotis Triantis"
