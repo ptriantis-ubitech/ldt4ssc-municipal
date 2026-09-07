@@ -7,62 +7,83 @@
 # This is the FIRST FILE you should edit after creating your pilot
 # repository from the template. A pilot repository without a properly
 # filled-in pilot.yaml will not be picked up by the aggregator.
-#
-# Replace all placeholder values (in <angle brackets>) with your pilot's
-# real information. Remove any optional fields you do not use.
 
 schema_version: 1
 
 # Short name of the pilot, in lowercase with hyphens (used in URLs)
-short_name: <your-pilot-short-name>
+short_name: municipal
 
 # Human-readable name of the pilot
-name: <Your Pilot Full Name>
+name: MUNICIPAL
 
 # Short description of the pilot (one or two sentences)
 description: >
-  <A short description of what this pilot is about, what challenge it
-  addresses, and what value it aims to deliver. One or two sentences is
-  enough.>
+  The MUNICIPAL pilot demonstrates a networked ecosystem of Local Digital Twins across energy, mobility, and public services by interconnecting the cities of Murcia and Nicosia. It leverages the SIMPL middleware to enable sovereign, cross-border sharing of data and AI-driven digital services.
 
 # LDT4SSC work strand: WS1, WS2, or WS3
-work_strand: <WS1 | WS2 | WS3>
+work_strand: WS1
 
 # The cities, regions, or communities involved in this pilot
 locations:
-  - city: <City name>
-    country: <Country name>
-    country_code: <ISO 3166-1 alpha-2 code, e.g. LU, IT, ES>
-  # Add more entries as needed for multi-city pilots
+  - city: Murcia
+    country: Spain
+    country_code: ES
+  - city: Nicosia
+    country: Cyprus
+    country_code: CY
 
 # The thematic focus areas of the pilot, drawn from the LDT4SSC topic list.
 # Pick all that apply. The full list is documented in the LDT4SSC Knowledge
 # Hub under Resources for Pilots.
 focus_areas:
-  - <e.g. mobility>
-  - <e.g. air-quality>
+  - Mobility
+  - Air-quality
+  - Public lighting
 
 # The consortium members participating in this pilot
 consortium:
-  - name: <Organisation name>
-    role: <e.g. Pilot lead, Public authority, Technology partner, Research>
-    country_code: <ISO 3166-1 alpha-2 code>
-    website: <https://...>  # optional
-  # Add more entries for each consortium member
+  - name: Ubitech
+    role: Pilot lead
+    country_code: GR
+    website: https://ubitech.eu/
+  - name: Technical University of Denmark
+    role: Research
+    country_code: DK
+    website: https://www.dtu.dk/
+  - name: OdinS
+    role: Technology partner
+    country_code: ES
+    website: https://odins.ai/
+  - name: AI-nergy
+    role: Technology partner
+    country_code: DK
+    website: https://ai-nergy.net/
+  - name: University of Cyprus
+    role: Research
+    country_code: CY
+    website: https://www.ucy.ac.cy/
+  - name: Murcia Municipality
+    role: Public authority
+    country_code: ES
+    website: https://web.murcia.es/
+  - name: Nicosia Municipality
+    role: Public authority
+    country_code: CY
+    website: https://www.nicosia.org.cy/
 
 # Primary contact for the pilot
 contact:
-  name: <Contact person name>
-  email: <contact@example.org>
-  organisation: <Organisation name>
+  name: Stamatis Diakakis
+  email: sdiakakis@ubitech.eu
+  organisation: Ubitech
 
 # Date the pilot started (ISO 8601 format: YYYY-MM-DD)
-start_date: <YYYY-MM-DD>
+start_date: 2026-05-14
 
 # Optional: expected end date of the pilot
-# end_date: <YYYY-MM-DD>
+end_date: 2027-11-14
 
 # Optional: list of external repositories or websites associated with this pilot
-# external_links:
-#   - label: <Description>
-#     url: <https://...>
+external_links:
+   - label: UBITECH MUNICIPAL Press Release
+     url: https://ubitech.eu/ubitech-awarded-ldt4ssc-cascading-grant-to-advance-cross-border-digital-twin-interconnection/
