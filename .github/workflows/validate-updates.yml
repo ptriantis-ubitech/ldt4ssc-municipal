@@ -1,0 +1,16 @@
+name: Validate updates
+
+on:
+  push:
+    paths:
+      - 'updates/**'
+      - '.github/workflows/validate-updates.yml'
+  pull_request:
+    paths:
+      - 'updates/**'
+      - '.github/workflows/validate-updates.yml'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    uses: ldt4ssc/ldt4ssc.github.io/.github/workflows/validate-updates.yml@main
